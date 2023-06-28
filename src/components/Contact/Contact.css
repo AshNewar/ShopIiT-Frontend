@@ -1,0 +1,89 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    font-family: "poppins";
+    text-align: center;
+    padding: 0 6rem;
+}
+.contactPage{
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+
+}
+.contact1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 4rem; */
+    background-color: black;
+    color: white;
+    padding: 3rem;
+    border-radius: 10px;
+}
+.contactdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;    
+}
+.contacticons{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.contact2{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: left;
+}
+.inputcontact{
+    padding: .3rem .4rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-family: "poppins";
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: black;
+
+}
+.input{
+    display: flex;
+    gap: .8rem;
+    flex-direction: column;
+}
+.contactsent{
+    width: fit-content;
+    padding: .8rem 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width:850px) {
+    .contact{
+        padding: 3rem;
+    }
+    .contactPage{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .contact1 ,.contact2{
+        padding: 2rem 1rem;
+        gap: 1rem;
+
+    }
+    .contactsent{
+        padding: .6rem .8rem;
+        font-size: 15px;
+
+
+    }
+    
+}

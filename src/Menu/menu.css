@@ -1,0 +1,21 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    font-family: "Poppins";
+
+}
+.menuList2{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@media screen and (max-width:900px) {
+    .menuList2{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}

@@ -1,0 +1,66 @@
+.dashboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-family: "poppins";
+
+}
+.dashmain{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+.dashheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashchart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashbox{
+    padding: 2rem;
+    text-align: center;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+.dashbutton{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.dashgraph{
+    padding: 2rem;
+}
+.dashkey{
+    padding: .6rem .8rem;
+    margin: .5rem;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color :black;
+}
+@media screen and (max-width:600px) {
+    .dashheader{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .dashchart{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

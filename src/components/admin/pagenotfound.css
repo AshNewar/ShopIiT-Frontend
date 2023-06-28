@@ -1,0 +1,34 @@
+.notFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-align: center;
+}
+.errorpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.errorbutton{
+    margin-top: .8rem;
+    padding: .5rem .8rem;
+    background-color: black;
+    color: white;
+    /* width: fit-content; */
+    border-radius: 10px;
+
+}
+.errorbutton:hover{
+    background-color:white;
+    color: black;
+    border: 2px solid gray;
+
+
+}
+.notfoundMain{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}

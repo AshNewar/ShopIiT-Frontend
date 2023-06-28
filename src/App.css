@@ -1,0 +1,40 @@
+  @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600;700&family=Poppins:wght@500&display=swap');
+:root{
+    --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.section_padding{
+    padding: 4rem 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (max-width:1000px){
+    .section_padding{
+        padding: 3rem 5rem;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    .section_padding{
+        padding: 2rem;
+    }
+}

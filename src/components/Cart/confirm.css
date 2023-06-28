@@ -1,0 +1,35 @@
+.confirmOrder{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    gap: 1rem;
+    margin: 4rem 0;
+
+}
+.confirmOrder2{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    gap: 2rem;
+    font-size: 20px;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px 5px rgb(179, 177, 177);
+    border-radius: 20px;
+
+}
+.confirmform{
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+}
+.confirm{
+    display: flex;
+    justify-content: space-between;
+    padding: .6rem 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 2px rgb(179, 176, 176);
+}

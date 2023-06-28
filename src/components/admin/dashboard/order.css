@@ -1,0 +1,36 @@
+.tableClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-x: auto;
+}
+th{
+    padding: 1rem 3rem;
+    font-size: 23px;
+}
+.orderid{
+    padding: 1rem;
+}
+thead{
+    background-color: black;
+    color: white;
+}
+.orderDetails{
+    text-align: center;
+    line-height: 2;
+}
+.ordermain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.itemList{
+    padding: 2rem 5rem;
+}
+.itemsDetails{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}

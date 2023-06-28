@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+    
+    background-repeat: no-repeat;
+    color: rgb(25, 24, 24);
+
+}
+.body{
+    width: 100vw;
+    height: 80vh;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+
+}  
+.head{
+    width: 18rem;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    font-size: 1.4rem;
+    font-family: "Poppins" ,sans-serif;
+    font-weight: 800;
+    padding-left: 0;
+    text-shadow: 1px 1px  rgb(177, 171, 171) ;
+}
+#login{
+    font-size: 1.8rem;
+    font-family: "Montserrat" ,sans-serif;
+    font-weight: 800;
+    padding-left: 0;
+}
+.loginpage{
+        margin: auto auto;
+}
+
+#l_des{
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.inp_name{
+    margin-top: 3rem;
+    width: 18rem;
+    height: 3rem;
+    border: 0.12rem solid #272728;
+    border-radius: 1rem;
+}
+.name_placeholder{
+    position: absolute;
+    background-color:white;
+    padding: .1rem .4rem;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    margin-top:-0.8rem;
+    margin-left: 1.3rem;
+    /* width: 4rem; */
+}
+#pass_inp_name{
+    margin-top: 2.5rem;
+}
+
+#pass_name_placeholder{
+    width: 5.6rem;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fbfbfd inset;
+    -webkit-text-fill-color: rgb(33, 32, 32) !important;
+}
+
+input, textarea{
+    background-color: #00000000;
+    color:rgb(17, 16, 16);
+}
+.username{
+    caret-color: #69749C;
+    margin-top:1rem;
+    border:none;
+    font-size: 1rem;
+    margin-left: 1rem;
+    fill: none;
+    background: transparent;
+    
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.bottom{
+    width: 18rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top:3em;
+    cursor: pointer;
+}
+.attri{
+    padding:.2rem .4rem;
+    display: block;
+    background-color: #1A1A1D;
+}
+.mem{
+    font-size: 1rem;
+}
+#goback {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family:'Inter', sans-serif; 
+    align-items: center;
+    padding:0.2em;
+}
+.continue{
+    font-family:'Inter', sans-serif; 
+    /* color:white; */
+    font-weight: 600;
+    color: #EBE2FC;
+    background-color:#A371F7;
+    padding:0.6rem 1.5em;
+    border: 1px solid black;
+    border-radius:2.2em;
+    cursor: pointer;
+}
+.continue:hover{
+    color: #A371F7;
+    background-color:#EBE2FC;
+}
+.loginpage{
+    border:1px solid #3e3e3f;
+    padding: 0 2rem 2rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px 10px rgb(206, 200, 200);
+}
+.googlelogin{
+    padding: 1rem;
+    text-align: center;
+    font-family:'Inter', sans-serif; 
+    
+}
+.googlespan{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#googletext{
+    margin-left: 5px;
+}
+    

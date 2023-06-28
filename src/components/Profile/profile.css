@@ -1,0 +1,30 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2.8;
+}
+.profileImg{
+    width: 16rem;
+    border-radius: 50%;
+    box-shadow: 4px 2px 6px 2px rgb(218, 215, 215);
+
+}
+.proName{
+    font-size: 20px;
+    
+}
+.profilebutton{
+    padding: .6rem .8rem;
+    border: 1px solid gray;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 2px rgb(218, 215, 215);
+}
+.profilebutton:hover{
+    color: black;
+    background-color: white;
+
+}

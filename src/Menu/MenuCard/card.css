@@ -1,0 +1,39 @@
+.card{
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Poppins";
+    border: 2px solid gray;
+    border-radius:50%;
+    padding: 2rem 4.5rem;
+    box-shadow:0 0 10px gray;
+
+}
+.cardimg img{
+    width: 10vw;
+    border-radius: 50%;
+    box-shadow: 0 0 10px gray;
+}
+.addtocart{
+    padding: .4rem .6rem;
+    border-radius: 1rem;
+    margin-top: .2rem;
+    cursor: pointer;
+    box-shadow: 0 3px gray;
+}
+
+
+@media screen and (max-width:900px){
+    .card{
+       padding: 3rem 0;
+       box-shadow: 0 0 15px gray;
+    border: 2px solid gray;
+
+
+    }
+    .cardimg img{
+        width: 20vw;
+        border-radius: 50%;
+        box-shadow: 0 0 10px gray;
+    }
+
+}

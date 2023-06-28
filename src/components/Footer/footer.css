@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.footer2{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-family: "poppins";
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:900px) {
+    .footer2{
+        font-size: 1.5rem;
+    }
+    
+}
