@@ -11,7 +11,7 @@ const store=configureStore({
         cart:cartReducer,
         order:orderReducer,
         orders:getOrderReducer,
-        admin:adminReducer
+        admin:adminReducer,
     },
 })
 export default store;
