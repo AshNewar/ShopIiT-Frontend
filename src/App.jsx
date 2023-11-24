@@ -7,7 +7,7 @@ import Cart from "./components/Cart/Cart";
 import Shipping from "./components/Cart/Shipping/Shipping";
 import Footer from "./components/Footer/footer";
 import ConfirmOrder from "./components/Cart/Confirm";
-import Success from "./components/Cart/success";
+import Success from "./components/Cart/success.jsx";
 import Login from "./components/Login/Login";
 import Signup from "./components/Login/Signup";
 import Profile from "./components/Profile/Profile";
